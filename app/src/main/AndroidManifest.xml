@@ -20,7 +20,7 @@
 			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
 			android:hardwareAccelerated="true"
 			android:supportsPictureInPicture="true"
-		        android:theme="@style/NoActionBar"
+		        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
                         android:exported="true"
 			android:screenOrientation="unspecified">
 			<intent-filter>
@@ -48,7 +48,7 @@
 			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
 			android:hardwareAccelerated="true"
 			android:supportsPictureInPicture="true"
-			android:theme="@style/NoActionBar"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
 			android:exported="true"
 			android:screenOrientation="unspecified">
 			<intent-filter android:label="@string/dl">
